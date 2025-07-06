@@ -1,0 +1,424 @@
+{
+  "personal": {
+    "name": "Fadi Yahyaoui",
+    "title": {
+      "en": "Senior IT Project Manager & Customer Support Specialist",
+      "fr": "Chef de Projet IT Senior & Spécialiste Support Client",
+      "de": "Senior IT-Projektmanager & Kundensupport-Spezialist",
+      "ar": "مدير مشاريع تقنية المعلومات الأول ومختص دعم العملاء",
+      "it": "Senior Project Manager IT & Specialista Supporto Clienti"
+    },
+    "email": "yahyaouifadi@gmail.com",
+    "phone": "+216 54 55 56 64",
+    "location": {
+      "en": "Beni Khiar, Nabeul, Tunisia",
+      "fr": "Beni Khiar, Nabeul, Tunisie",
+      "de": "Beni Khiar, Nabeul, Tunesien",
+      "ar": "بني خيار، نابل، تونس",
+      "it": "Beni Khiar, Nabeul, Tunisia"
+    },
+    "linkedin": "fadiyahyaoui",
+    "github": "yahyaoui.fadi2",
+    "website": "",
+    "birthDate": "11/4/1994",
+    "driverLicense": "B",
+    "status": "Single"
+  },
+  "objective": {
+    "en": "Results-driven IT Project Manager with 4+ years of experience leading cross-functional teams and delivering complex telecommunications projects. Seeking to leverage expertise in process automation, team leadership, and client relationship management to drive digital transformation initiatives in a growth-oriented technology company.",
+    "fr": "Chef de projet IT axé sur les résultats avec plus de 4 ans d'expérience dans la direction d'équipes transversales et la livraison de projets de télécommunications complexes. Cherche à exploiter l'expertise en automatisation des processus, leadership d'équipe et gestion des relations clients pour conduire des initiatives de transformation numérique dans une entreprise technologique en croissance.",
+    "de": "Ergebnisorientierter IT-Projektmanager mit über 4 Jahren Erfahrung in der Führung funktionsübergreifender Teams und der Durchführung komplexer Telekommunikationsprojekte. Möchte Expertise in Prozessautomatisierung, Teamführung und Kundenbeziehungsmanagement nutzen, um digitale Transformationsinitiativen in einem wachstumsorientierten Technologieunternehmen voranzutreiben.",
+    "ar": "مدير مشاريع تقنية المعلومات موجه نحو النتائج مع أكثر من 4 سنوات من الخبرة في قيادة الفرق متعددة الوظائف وتسليم مشاريع الاتصالات المعقدة. يسعى للاستفادة من الخبرة في أتمتة العمليات وقيادة الفريق وإدارة علاقات العملاء لدفع مبادرات التحول الرقمي في شركة تكنولوجيا موجهة نحو النمو.",
+    "it": "Project Manager IT orientato ai risultati con oltre 4 anni di esperienza nella guida di team interfunzionali e nella consegna di progetti di telecomunicazioni complessi. Cerca di sfruttare l'esperienza nell'automazione dei processi, leadership del team e gestione delle relazioni con i clienti per guidare iniziative di trasformazione digitale in un'azienda tecnologica orientata alla crescita."
+  },
+  "summary": {
+    "en": "Highly motivated IT professional with proven expertise in project management, process automation, and team leadership. Successfully managed 32 technicians across multiple telecommunications projects, achieving 15% cost reduction through innovative Google Apps Script solutions. Strong background in customer support, technical training, and SLA management with demonstrated ability to improve operational efficiency by 20%.",
+    "fr": "Professionnel IT très motivé avec une expertise prouvée en gestion de projet, automatisation des processus et leadership d'équipe. A géré avec succès 32 techniciens sur plusieurs projets de télécommunications, réalisant une réduction de coûts de 15% grâce à des solutions innovantes Google Apps Script. Solide expérience en support client, formation technique et gestion SLA avec une capacité démontrée d'améliorer l'efficacité opérationnelle de 20%.",
+    "de": "Hochmotivierter IT-Fachmann mit nachgewiesener Expertise in Projektmanagement, Prozessautomatisierung und Teamführung. Erfolgreich 32 Techniker über mehrere Telekommunikationsprojekte verwaltet, 15% Kostenreduzierung durch innovative Google Apps Script-Lösungen erreicht. Starker Hintergrund in Kundensupport, technischer Schulung und SLA-Management mit nachgewiesener Fähigkeit, die operative Effizienz um 20% zu verbessern.",
+    "ar": "محترف تقنية معلومات متحمس للغاية مع خبرة مثبتة في إدارة المشاريع وأتمتة العمليات وقيادة الفريق. نجح في إدارة 32 فنيًا عبر مشاريع اتصالات متعددة، محققًا تقليل التكاليف بنسبة 15% من خلال حلول Google Apps Script المبتكرة. خلفية قوية في دعم العملاء والتدريب التقني وإدارة اتفاقيات مستوى الخدمة مع قدرة مثبتة على تحسين الكفاءة التشغيلية بنسبة 20%.",
+    "it": "Professionista IT altamente motivato con comprovata esperienza in project management, automazione dei processi e leadership del team. Ha gestito con successo 32 tecnici su più progetti di telecomunicazioni, ottenendo una riduzione dei costi del 15% attraverso soluzioni innovative Google Apps Script. Solida esperienza nel supporto clienti, formazione tecnica e gestione SLA con comprovata capacità di migliorare l'efficienza operativa del 20%."
+  },
+  "experience": [
+    {
+      "title": {
+        "en": "Senior Project Manager - TDD Project",
+        "fr": "Chef de Projet Senior - Projet TDD",
+        "de": "Senior Projektmanager - TDD-Projekt",
+        "ar": "مدير مشروع أول - مشروع TDD",
+        "it": "Senior Project Manager - Progetto TDD"
+      },
+      "company": "INSCOM Company",
+      "location": {
+        "en": "Tunisia",
+        "fr": "Tunisie",
+        "de": "Tunesien",
+        "ar": "تونس",
+        "it": "Tunisia"
+      },
+      "period": "2022 - Present",
+      "achievements": {
+        "en": [
+          "Led cross-functional team of 32 technicians and 4 administrators, delivering 95% project completion rate",
+          "Developed automated Google Sheets/G-App script system, reducing operational costs by 15% ($50K annually)",
+          "Created comprehensive online training program, improving team productivity by 20% and reducing onboarding time by 40%",
+          "Implemented Telegram bot integration for real-time task management, increasing response time by 35%",
+          "Designed mobile-responsive dashboard using Looker Studio, providing real-time project insights to stakeholders",
+          "Maintained 99.2% SLA compliance rate with Ooredoo, exceeding industry standards by 4%",
+          "Successfully migrated team workflow from Google Sheets to ClickUp, improving project tracking efficiency by 30%",
+          "Achieved ClickUp Verified Power User badge, demonstrating advanced platform expertise and optimization skills",
+          "Developed custom ClickUp API automation programs for administrative tasks, reducing manual work by 50%",
+          "Created comprehensive ClickUp training program for team members, ensuring smooth platform adoption and best practices"
+        ],
+        "fr": [
+          "Dirigé une équipe transversale de 32 techniciens et 4 administrateurs, atteignant un taux de completion de projet de 95%",
+          "Développé un système automatisé Google Sheets/G-App script, réduisant les coûts opérationnels de 15% (50K$ annuellement)",
+          "Créé un programme de formation en ligne complet, améliorant la productivité de l'équipe de 20% et réduisant le temps d'intégration de 40%",
+          "Implémenté l'intégration de bot Telegram pour la gestion des tâches en temps réel, augmentant le temps de réponse de 35%",
+          "Conçu un tableau de bord responsive mobile utilisant Looker Studio, fournissant des insights projet en temps réel aux parties prenantes",
+          "Maintenu un taux de conformité SLA de 99,2% avec Ooredoo, dépassant les standards de l'industrie de 4%",
+          "Migré avec succès le workflow de l'équipe de Google Sheets vers ClickUp, améliorant l'efficacité de suivi de projet de 30%",
+          "Obtenu le badge ClickUp Verified Power User, démontrant une expertise avancée de la plateforme et des compétences d'optimisation",
+          "Développé des programmes d'automatisation API ClickUp personnalisés pour les tâches administratives, réduisant le travail manuel de 50%",
+          "Créé un programme de formation ClickUp complet pour les membres de l'équipe, assurant une adoption fluide de la plateforme et les meilleures pratiques"
+        ],
+        "de": [
+          "Leitete funktionsübergreifendes Team von 32 Technikern und 4 Administratoren, erreichte 95% Projektabschlussrate",
+          "Entwickelte automatisiertes Google Sheets/G-App-Skript-System, reduzierte Betriebskosten um 15% (50K$ jährlich)",
+          "Erstellte umfassendes Online-Schulungsprogramm, verbesserte Teamproduktivität um 20% und reduzierte Einarbeitungszeit um 40%",
+          "Implementierte Telegram-Bot-Integration für Echtzeit-Aufgabenmanagement, erhöhte Antwortzeit um 35%",
+          "Entwarf mobile-responsive Dashboard mit Looker Studio, bot Echtzeit-Projekteinblicke für Stakeholder",
+          "Hielt 99,2% SLA-Compliance-Rate mit Ooredoo aufrecht, übertraf Industriestandards um 4%",
+          "Migrierte erfolgreich Team-Workflow von Google Sheets zu ClickUp, verbesserte Projektverfolgungseffizienz um 30%",
+          "ClickUp Verified Power User Badge erhalten, demonstrierte fortgeschrittene Plattform-Expertise und Optimierungsfähigkeiten",
+          "Entwickelte benutzerdefinierte ClickUp API-Automatisierungsprogramme für administrative Aufgaben, reduzierte manuelle Arbeit um 50%",
+          "Erstellte umfassendes ClickUp-Schulungsprogramm für Teammitglieder, stellte reibungslose Plattform-Adoption und Best Practices sicher"
+        ],
+        "ar": [
+          "قاد فريقًا متعدد الوظائف من 32 فنيًا و4 مديرين، محققًا معدل إنجاز مشروع 95%",
+          "طور نظام Google Sheets/G-App script آلي، مقللاً التكاليف التشغيلية بنسبة 15% (50 ألف دولار سنويًا)",
+          "أنشأ برنامج تدريبي شامل عبر الإنترنت، محسنًا إنتاجية الفريق بنسبة 20% ومقللاً وقت التأهيل بنسبة 40%",
+          "نفذ تكامل بوت تليجرام لإدارة المهام في الوقت الفعلي، زائدًا وقت الاستجابة بنسبة 35%",
+          "صمم لوحة معلومات متجاوبة للهاتف المحمول باستخدام Looker Studio، مقدمًا رؤى المشروع في الوقت الفعلي لأصحاب المصلحة",
+          "حافظ على معدل امتثال SLA بنسبة 99.2% مع أوريدو، متجاوزًا معايير الصناعة بنسبة 4%",
+          "نقل بنجاح سير عمل الفريق من Google Sheets إلى ClickUp، محسنًا كفاءة تتبع المشروع بنسبة 30%",
+          "حصل على شارة ClickUp Verified Power User، مظهرًا خبرة متقدمة في المنصة ومهارات التحسين",
+          "طور برامج أتمتة API ClickUp مخصصة للمهام الإدارية، مقللاً العمل اليدوي بنسبة 50%",
+          "أنشأ برنامج تدريب ClickUp شامل لأعضاء الفريق، ضامنًا اعتماد المنصة بسلاسة وأفضل الممارسات"
+        ],
+        "it": [
+          "Ha guidato un team interfunzionale di 32 tecnici e 4 amministratori, raggiungendo un tasso di completamento progetti del 95%",
+          "Ha sviluppato un sistema automatizzato Google Sheets/G-App script, riducendo i costi operativi del 15% (50K$ annualmente)",
+          "Ha creato un programma di formazione online completo, migliorando la produttività del team del 20% e riducendo il tempo di onboarding del 40%",
+          "Ha implementato l'integrazione bot Telegram per la gestione delle attività in tempo reale, aumentando il tempo di risposta del 35%",
+          "Ha progettato una dashboard mobile-responsive utilizzando Looker Studio, fornendo insights di progetto in tempo reale agli stakeholder",
+          "Ha mantenuto un tasso di conformità SLA del 99,2% con Ooredoo, superando gli standard del settore del 4%",
+          "Ha migrato con successo il workflow del team da Google Sheets a ClickUp, migliorando l'efficienza di tracciamento progetti del 30%",
+          "Ottenuto il badge ClickUp Verified Power User, dimostrando competenze avanzate della piattaforma e abilità di ottimizzazione",
+          "Sviluppato programmi di automazione API ClickUp personalizzati per compiti amministrativi, riducendo il lavoro manuale del 50%",
+          "Creato programma di formazione ClickUp completo per i membri del team, garantendo adozione fluida della piattaforma e migliori pratiche"
+        ]
+      }
+    },
+    {
+      "title": {
+        "en": "Technical Specialist - FTTX & RLA Projects",
+        "fr": "Spécialiste Technique - Projets FTTX & RLA",
+        "de": "Technischer Spezialist - FTTX & RLA Projekte",
+        "ar": "أخصائي تقني - مشاريع FTTX و RLA",
+        "it": "Specialista Tecnico - Progetti FTTX & RLA"
+      },
+      "company": "INSCOM Company",
+      "location": {
+        "en": "Tunisia",
+        "fr": "Tunisie",
+        "de": "Tunesien",
+        "ar": "تونس",
+        "it": "Tunisia"
+      },
+      "period": "2021 - 2022",
+      "achievements": {
+        "en": [
+          "Installed and configured 500+ fiber optic internet connections, achieving 98% first-time success rate",
+          "Managed Ooredoo inventory worth $200K+, implementing tracking system that reduced material waste by 25%",
+          "Coordinated site surveys and safety protocols across 50+ construction sites, maintaining zero safety incidents",
+          "Collaborated with General Contractor teams to validate installations, ensuring 100% quality compliance",
+          "Created detailed technical documentation and installation reports, improving knowledge transfer by 60%",
+          "Trained 15+ junior technicians on FTTX installation procedures, reducing training time by 30%"
+        ],
+        "fr": [
+          "Installé et configuré plus de 500 connexions internet fibre optique, atteignant un taux de succès de première fois de 98%",
+          "Géré l'inventaire Ooredoo d'une valeur de plus de 200K$, implémentant un système de suivi qui a réduit le gaspillage de matériel de 25%",
+          "Coordonné les enquêtes de site et protocoles de sécurité sur plus de 50 chantiers, maintenant zéro incident de sécurité",
+          "Collaboré avec les équipes d'entrepreneurs généraux pour valider les installations, assurant 100% de conformité qualité",
+          "Créé une documentation technique détaillée et des rapports d'installation, améliorant le transfert de connaissances de 60%",
+          "Formé plus de 15 techniciens juniors sur les procédures d'installation FTTX, réduisant le temps de formation de 30%"
+        ],
+        "de": [
+          "Installierte und konfigurierte 500+ Glasfaser-Internetverbindungen, erreichte 98% Erfolgsrate beim ersten Versuch",
+          "Verwaltete Ooredoo-Inventar im Wert von 200K$+, implementierte Tracking-System, das Materialverschwendung um 25% reduzierte",
+          "Koordinierte Standortuntersuchungen und Sicherheitsprotokolle auf 50+ Baustellen, hielt null Sicherheitsvorfälle aufrecht",
+          "Arbeitete mit Generalunternehmer-Teams zusammen, um Installationen zu validieren, stellte 100% Qualitätskonformität sicher",
+          "Erstellte detaillierte technische Dokumentation und Installationsberichte, verbesserte Wissenstransfer um 60%",
+          "Schulte 15+ Junior-Techniker in FTTX-Installationsverfahren, reduzierte Schulungszeit um 30%"
+        ],
+        "ar": [
+          "ركب وهيأ أكثر من 500 اتصال إنترنت بالألياف البصرية، محققًا معدل نجاح 98% من المحاولة الأولى",
+          "أدار مخزون أوريدو بقيمة تزيد عن 200 ألف دولار، منفذًا نظام تتبع قلل هدر المواد بنسبة 25%",
+          "نسق مسوحات الموقع وبروتوكولات السلامة عبر أكثر من 50 موقع بناء، محافظًا على صفر حوادث سلامة",
+          "تعاون مع فرق المقاول العام للتحقق من التركيبات، ضامنًا 100% امتثال الجودة",
+          "أنشأ وثائق تقنية مفصلة وتقارير تركيب، محسنًا نقل المعرفة بنسبة 60%",
+          "درب أكثر من 15 فنيًا مبتدئًا على إجراءات تركيب FTTX، مقللاً وقت التدريب بنسبة 30%"
+        ],
+        "it": [
+          "Ha installato e configurato 500+ connessioni internet in fibra ottica, raggiungendo un tasso di successo al primo tentativo del 98%",
+          "Ha gestito l'inventario Ooredoo del valore di 200K$+, implementando un sistema di tracciamento che ha ridotto lo spreco di materiali del 25%",
+          "Ha coordinato indagini del sito e protocolli di sicurezza su 50+ cantieri, mantenendo zero incidenti di sicurezza",
+          "Ha collaborato con i team General Contractor per validare le installazioni, garantendo il 100% di conformità qualità",
+          "Ha creato documentazione tecnica dettagliata e report di installazione, migliorando il trasferimento di conoscenze del 60%",
+          "Ha formato 15+ tecnici junior sulle procedure di installazione FTTX, riducendo il tempo di formazione del 30%"
+        ]
+      }
+    }
+  ],
+  "skills": {
+    "technical": {
+      "en": ["Project Management (PMP)", "ClickUp API Development", "Google Apps Script", "AutoCAD", "MS Office Suite", "Looker Studio", "ClickUp Power User", "Telegram Bot Development", "FTTX Installation", "Network Configuration", "SLA Management"],
+      "fr": ["Gestion de Projet (PMP)", "Développement API ClickUp", "Google Apps Script", "AutoCAD", "Suite MS Office", "Looker Studio", "ClickUp Power User", "Développement Bot Telegram", "Installation FTTX", "Configuration Réseau", "Gestion SLA"],
+      "de": ["Projektmanagement (PMP)", "ClickUp API Entwicklung", "Google Apps Script", "AutoCAD", "MS Office Suite", "Looker Studio", "ClickUp Power User", "Telegram Bot Entwicklung", "FTTX Installation", "Netzwerkkonfiguration", "SLA Management"],
+      "ar": ["إدارة المشاريع (PMP)", "تطوير API ClickUp", "Google Apps Script", "AutoCAD", "مجموعة MS Office", "Looker Studio", "ClickUp Power User", "تطوير بوت تليجرام", "تركيب FTTX", "تكوين الشبكة", "إدارة SLA"],
+      "it": ["Project Management (PMP)", "Sviluppo API ClickUp", "Google Apps Script", "AutoCAD", "Suite MS Office", "Looker Studio", "ClickUp Power User", "Sviluppo Bot Telegram", "Installazione FTTX", "Configurazione Rete", "Gestione SLA"]
+    },
+    "soft": {
+      "en": ["Team Leadership", "Cross-functional Collaboration", "Process Optimization", "Strategic Planning", "Client Relationship Management", "Training & Development", "Problem-Solving", "Quality Assurance"],
+      "fr": ["Leadership d'Équipe", "Collaboration Transversale", "Optimisation des Processus", "Planification Stratégique", "Gestion Relations Clients", "Formation & Développement", "Résolution de Problèmes", "Assurance Qualité"],
+      "de": ["Teamführung", "Funktionsübergreifende Zusammenarbeit", "Prozessoptimierung", "Strategische Planung", "Kundenbeziehungsmanagement", "Schulung & Entwicklung", "Problemlösung", "Qualitätssicherung"],
+      "ar": ["قيادة الفريق", "التعاون متعدد الوظائف", "تحسين العمليات", "التخطيط الاستراتيجي", "إدارة علاقات العملاء", "التدريب والتطوير", "حل المشاكل", "ضمان الجودة"],
+      "it": ["Leadership del Team", "Collaborazione Interfunzionale", "Ottimizzazione Processi", "Pianificazione Strategica", "Gestione Relazioni Clienti", "Formazione & Sviluppo", "Risoluzione Problemi", "Assicurazione Qualità"]
+    },
+    "languages": {
+      "en": [
+        {"language": "Arabic", "level": "Native"},
+        {"language": "English", "level": "Professional"},
+        {"language": "French", "level": "Professional"}
+      ],
+      "fr": [
+        {"language": "Arabe", "level": "Natif"},
+        {"language": "Anglais", "level": "Professionnel"},
+        {"language": "Français", "level": "Professionnel"}
+      ],
+      "de": [
+        {"language": "Arabisch", "level": "Muttersprache"},
+        {"language": "Englisch", "level": "Beruflich"},
+        {"language": "Französisch", "level": "Beruflich"}
+      ],
+      "ar": [
+        {"language": "العربية", "level": "لغة أم"},
+        {"language": "الإنجليزية", "level": "مهني"},
+        {"language": "الفرنسية", "level": "مهني"}
+      ],
+      "it": [
+        {"language": "Arabo", "level": "Madrelingua"},
+        {"language": "Inglese", "level": "Professionale"},
+        {"language": "Francese", "level": "Professionale"}
+      ]
+    }
+  },
+  "education": [
+    {
+      "degree": {
+        "en": "Bachelor of Computer Science",
+        "fr": "Licence en Informatique",
+        "de": "Bachelor of Computer Science",
+        "ar": "بكالوريوس علوم الحاسوب",
+        "it": "Laurea in Informatica"
+      },
+      "institution": "ISITCOM University",
+      "year": "2015 - 2016",
+      "location": {
+        "en": "Tunisia",
+        "fr": "Tunisie",
+        "de": "Tunesien",
+        "ar": "تونس",
+        "it": "Tunisia"
+      },
+      "gpa": "3.2/4.0",
+      "coursework": {
+        "en": "Database Management, Network Administration, Software Engineering, Project Management",
+        "fr": "Gestion de Base de Données, Administration Réseau, Génie Logiciel, Gestion de Projet",
+        "de": "Datenbankmanagement, Netzwerkadministration, Software Engineering, Projektmanagement",
+        "ar": "إدارة قواعد البيانات، إدارة الشبكات، هندسة البرمجيات، إدارة المشاريع",
+        "it": "Gestione Database, Amministrazione Rete, Ingegneria Software, Project Management"
+      }
+    },
+    {
+      "degree": {
+        "en": "Professional Diploma in Smart Home & Security Systems",
+        "fr": "Diplôme Professionnel en Systèmes de Maison Intelligente et Sécurité",
+        "de": "Berufsdiplom in Smart Home & Sicherheitssystemen",
+        "ar": "دبلوم مهني في أنظمة المنزل الذكي والأمان",
+        "it": "Diploma Professionale in Sistemi Casa Intelligente e Sicurezza"
+      },
+      "institution": "Ibn Sina Formation Centre",
+      "year": "2017 - 2020",
+      "location": {
+        "en": "Tunisia",
+        "fr": "Tunisie",
+        "de": "Tunesien",
+        "ar": "تونس",
+        "it": "Tunisia"
+      },
+      "grade": "Excellent",
+      "specialization": {
+        "en": "LEGRAND Systems Integration, Alarm Systems, Surveillance Technology",
+        "fr": "Intégration Systèmes LEGRAND, Systèmes d'Alarme, Technologie de Surveillance",
+        "de": "LEGRAND Systemintegration, Alarmanlagen, Überwachungstechnologie",
+        "ar": "تكامل أنظمة LEGRAND، أنظمة الإنذار، تقنية المراقبة",
+        "it": "Integrazione Sistemi LEGRAND, Sistemi Allarme, Tecnologia Sorveglianza"
+      }
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Project Management Professional (PMP) - In Progress",
+      "issuer": "PMI",
+      "year": "2024",
+      "status": "In Progress"
+    },
+    {
+      "name": "ClickUp Verified Power User",
+      "issuer": "ClickUp",
+      "year": "2023",
+      "status": "Active"
+    },
+    {
+      "name": "Google Apps Script Certified Developer",
+      "issuer": "Google",
+      "year": "2023",
+      "status": "Active"
+    },
+    {
+      "name": "FTTX Installation & Maintenance",
+      "issuer": "Ooredoo Academy",
+      "year": "2022",
+      "status": "Active"
+    },
+    {
+      "name": "LEGRAND Smart Home Systems",
+      "issuer": "LEGRAND Training Center",
+      "year": "2020",
+      "status": "Active"
+    }
+  ],
+  "projects": [
+    {
+      "title": {
+        "en": "ClickUp API Automation Suite",
+        "fr": "Suite d'Automatisation API ClickUp",
+        "de": "ClickUp API Automatisierungs-Suite",
+        "ar": "مجموعة أتمتة API ClickUp",
+        "it": "Suite Automazione API ClickUp"
+      },
+      "description": {
+        "en": "Developed comprehensive ClickUp API automation programs for administrative tasks including task creation, status updates, time tracking, and reporting. Integrated with existing Google Apps Script solutions to create seamless workflow automation reducing manual administrative work by 50%.",
+        "fr": "Développé des programmes d'automatisation API ClickUp complets pour les tâches administratives incluant la création de tâches, les mises à jour de statut, le suivi du temps et les rapports. Intégré avec les solutions Google Apps Script existantes pour créer une automatisation de workflow transparente réduisant le travail administratif manuel de 50%.",
+        "de": "Entwickelte umfassende ClickUp API-Automatisierungsprogramme für administrative Aufgaben einschließlich Aufgabenerstellung, Statusupdates, Zeiterfassung und Berichterstattung. Integriert mit bestehenden Google Apps Script-Lösungen zur Erstellung nahtloser Workflow-Automatisierung, die manuelle administrative Arbeit um 50% reduziert.",
+        "ar": "طور برامج أتمتة API ClickUp شاملة للمهام الإدارية بما في ذلك إنشاء المهام وتحديثات الحالة وتتبع الوقت والتقارير. متكامل مع حلول Google Apps Script الموجودة لإنشاء أتمتة سير عمل سلسة تقلل العمل الإداري اليدوي بنسبة 50%.",
+        "it": "Ha sviluppato programmi di automazione API ClickUp completi per compiti amministrativi inclusi creazione attività, aggiornamenti stato, tracciamento tempo e reporting. Integrato con soluzioni Google Apps Script esistenti per creare automazione workflow senza soluzione di continuità riducendo il lavoro amministrativo manuale del 50%."
+      },
+      "technologies": ["ClickUp API", "JavaScript", "Google Apps Script", "REST APIs", "JSON", "Automation Workflows"],
+      "period": "2023 - Present",
+      "impact": "50% reduction in manual administrative work, improved task tracking accuracy"
+    },
+    {
+      "title": {
+        "en": "Automated Project Management System",
+        "fr": "Système de Gestion de Projet Automatisé",
+        "de": "Automatisiertes Projektmanagementsystem",
+        "ar": "نظام إدارة المشاريع الآلي",
+        "it": "Sistema di Gestione Progetti Automatizzato"
+      },
+      "description": {
+        "en": "Developed comprehensive Google Apps Script solution integrating Sheets, Forms, and Telegram bots for real-time project tracking and team communication. Reduced manual reporting by 80% and improved project visibility.",
+        "fr": "Développé une solution Google Apps Script complète intégrant Sheets, Forms et bots Telegram pour le suivi de projet en temps réel et la communication d'équipe. Réduit les rapports manuels de 80% et amélioré la visibilité du projet.",
+        "de": "Entwickelte umfassende Google Apps Script-Lösung, die Sheets, Forms und Telegram-Bots für Echtzeit-Projektverfolgung und Teamkommunikation integriert. Reduzierte manuelle Berichterstattung um 80% und verbesserte Projektsichtbarkeit.",
+        "ar": "طور حلاً شاملاً لـ Google Apps Script يدمج Sheets و Forms وبوتات Telegram لتتبع المشاريع في الوقت الفعلي والتواصل الجماعي. قلل التقارير اليدوية بنسبة 80% وحسن رؤية المشروع.",
+        "it": "Ha sviluppato una soluzione Google Apps Script completa che integra Sheets, Forms e bot Telegram per il tracciamento progetti in tempo reale e la comunicazione del team. Ha ridotto i report manuali dell'80% e migliorato la visibilità del progetto."
+      },
+      "technologies": ["Google Apps Script", "Google Sheets", "Telegram API", "JavaScript", "HTML/CSS"],
+      "period": "2022 - 2023",
+      "impact": "15% cost reduction, 20% productivity increase"
+    },
+    {
+      "title": {
+        "en": "Smart Home Automation Demo",
+        "fr": "Démo d'Automatisation Maison Intelligente",
+        "de": "Smart Home Automatisierung Demo",
+        "ar": "عرض توضيحي لأتمتة المنزل الذكي",
+        "it": "Demo Automazione Casa Intelligente"
+      },
+      "description": {
+        "en": "Designed and implemented complete smart home system using LEGRAND equipment for residential demonstration. Integrated lighting, security, and climate control systems with mobile app interface.",
+        "fr": "Conçu et implémenté un système de maison intelligente complet utilisant l'équipement LEGRAND pour démonstration résidentielle. Intégré l'éclairage, la sécurité et les systèmes de contrôle climatique avec interface d'application mobile.",
+        "de": "Entwarf und implementierte komplettes Smart Home System mit LEGRAND-Ausrüstung für Wohndemonstration. Integrierte Beleuchtung, Sicherheit und Klimakontrollsysteme mit mobiler App-Schnittstelle.",
+        "ar": "صمم ونفذ نظام منزل ذكي كامل باستخدام معدات LEGRAND للعرض التوضيحي السكني. دمج أنظمة الإضاءة والأمان والتحكم في المناخ مع واجهة تطبيق الهاتف المحمول.",
+        "it": "Ha progettato e implementato un sistema casa intelligente completo utilizzando attrezzature LEGRAND per dimostrazione residenziale. Ha integrato illuminazione, sicurezza e sistemi di controllo climatico con interfaccia app mobile."
+      },
+      "technologies": ["LEGRAND MyHOME", "KNX Protocol", "Mobile App Integration", "IoT Sensors"],
+      "period": "2020",
+      "impact": "Successful client demonstration leading to 3 new contracts"
+    }
+  ],
+  "awards": [
+    {
+      "title": {
+        "en": "Outstanding Project Manager of the Year",
+        "fr": "Chef de Projet Exceptionnel de l'Année",
+        "de": "Herausragender Projektmanager des Jahres",
+        "ar": "مدير المشروع المتميز للعام",
+        "it": "Project Manager Eccezionale dell'Anno"
+      },
+      "issuer": "INSCOM Company",
+      "year": "2023",
+      "description": {
+        "en": "Recognized for exceptional leadership in managing complex telecommunications projects and achieving highest client satisfaction scores.",
+        "fr": "Reconnu pour un leadership exceptionnel dans la gestion de projets de télécommunications complexes et l'obtention des scores de satisfaction client les plus élevés.",
+        "de": "Anerkannt für außergewöhnliche Führung bei der Verwaltung komplexer Telekommunikationsprojekte und Erreichen höchster Kundenzufriedenheitswerte.",
+        "ar": "تم الاعتراف به للقيادة الاستثنائية في إدارة مشاريع الاتصالات المعقدة وتحقيق أعلى درجات رضا العملاء.",
+        "it": "Riconosciuto per la leadership eccezionale nella gestione di progetti di telecomunicazioni complessi e il raggiungimento dei punteggi di soddisfazione clienti più alti."
+      }
+    }
+  ],
+  "references": [
+    {
+      "name": "Ahmed Ben Salem",
+      "position": "Operations Director",
+      "company": "INSCOM Company",
+      "phone": "+216 XX XXX XXX",
+      "email": "a.bensalem@inscom.tn",
+      "relationship": "Direct Supervisor"
+    },
+    {
+      "name": "Fatma Trabelsi",
+      "position": "Project Coordinator",
+      "company": "Ooredoo Tunisia",
+      "phone": "+216 XX XXX XXX",
+      "email": "f.trabelsi@ooredoo.tn",
+      "relationship": "Client Partner"
+    },
+    {
+      "name": "Mohamed Karray",
+      "position": "Technical Lead",
+      "company": "INSCOM Company",
+      "phone": "+216 XX XXX XXX",
+      "email": "m.karray@inscom.tn",
+      "relationship": "Team Colleague"
+    }
+  ],
+  "hobbies": {
+    "en": ["Technology Innovation", "Team Sports (Football)", "Professional Development", "Process Automation", "Leadership Training"],
+    "fr": ["Innovation Technologique", "Sports d'Équipe (Football)", "Développement Professionnel", "Automatisation des Processus", "Formation en Leadership"],
+    "de": ["Technologische Innovation", "Mannschaftssport (Fußball)", "Berufliche Entwicklung", "Prozessautomatisierung", "Führungstraining"],
+    "ar": ["الابتكار التكنولوجي", "الرياضات الجماعية (كرة القدم)", "التطوير المهني", "أتمتة العمليات", "تدريب القيادة"],
+    "it": ["Innovazione Tecnologica", "Sport di Squadra (Calcio)", "Sviluppo Professionale", "Automazione Processi", "Formazione Leadership"]
+  }
+}
