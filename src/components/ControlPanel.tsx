@@ -61,8 +61,8 @@ const ControlPanel: React.FC<ControlPanelProps> = ({
       <div className="space-y-3 md:space-y-0 md:flex md:items-center md:justify-between md:gap-4">
         {/* Language and Format on same line for mobile */}
         <div className="flex justify-between items-start md:contents">
-        {/* Language Section */}
-        <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-3">
+          {/* Language Section */}
+          <div className="flex flex-col space-y-2">
           <div className="flex items-center space-x-2">
             <div className="p-1.5 rounded-full" style={{ backgroundColor: '#1a1a2e' }}>
               <FiGlobe className="text-white w-3 h-3" />
@@ -147,6 +147,7 @@ const ControlPanel: React.FC<ControlPanelProps> = ({
               </button>
             ))}
           </div>
+        </div>
         </div>
 
         {/* Download Button */}
