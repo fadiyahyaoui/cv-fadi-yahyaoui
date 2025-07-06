@@ -151,7 +151,7 @@ const CVTemplate: React.FC<CVTemplateProps> = ({ data, language, format }) => {
             <div className="flex flex-col space-y-2 md:text-right">
               <a href={`mailto:${data.personal.email}`} className="flex items-center justify-center md:justify-end space-x-1.5 bg-white bg-opacity-20 rounded-full px-2.5 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs">
                 <FiMail className="w-3 h-3 flex-shrink-0" />
-                <span className="font-medium truncate max-w-[120px] md:max-w-none">{data.personal.email}</span>
+                <span className="font-medium">{data.personal.email}</span>
               </a>
               <a href={`tel:${data.personal.phone}`} className="flex items-center justify-center md:justify-end space-x-1.5 bg-white bg-opacity-20 rounded-full px-2.5 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs">
                 <FiPhone className="w-3 h-3 flex-shrink-0" />
@@ -159,7 +159,7 @@ const CVTemplate: React.FC<CVTemplateProps> = ({ data, language, format }) => {
               </a>
               <a href="https://maps.google.com/?q=Beni+Khiar+Nabeul+Tunisia" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-end space-x-1.5 bg-white bg-opacity-20 rounded-full px-2.5 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs">
                 <FiMapPin className="w-3 h-3 flex-shrink-0" />
-                <span className="font-medium truncate max-w-[100px] md:max-w-none">{getLocalizedText(data.personal.location)}</span>
+                <span className="font-medium">{getLocalizedText(data.personal.location)}</span>
               </a>
               <a href="https://facebook.com/yahyaoui.fadi2" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-end space-x-1.5 bg-white bg-opacity-20 rounded-full px-2.5 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs">
                 <FiFacebook className="w-3 h-3 flex-shrink-0" />

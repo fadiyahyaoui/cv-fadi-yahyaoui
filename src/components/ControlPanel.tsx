@@ -59,6 +59,8 @@ const ControlPanel: React.FC<ControlPanelProps> = ({
   return (
     <div ref={panelRef} className="bg-white shadow-lg rounded-xl p-3 md:p-4 mb-4 md:mb-6 border border-gray-100">
       <div className="space-y-3 md:space-y-0 md:flex md:items-center md:justify-between md:gap-4">
+        {/* Language and Format on same line for mobile */}
+        <div className="flex justify-between items-start md:contents">
         {/* Language Section */}
         <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-3">
           <div className="flex items-center space-x-2">
@@ -121,8 +123,8 @@ const ControlPanel: React.FC<ControlPanelProps> = ({
           </div>
         </div>
 
-        {/* Format Section */}
-        <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-3">
+          {/* Format Section */}
+          <div className="flex flex-col space-y-2">
           <div className="flex items-center space-x-2">
             <div className="p-1.5 rounded-full" style={{ backgroundColor: '#ffd60a' }}>
               <FiLayout className="text-white w-3 h-3" />
