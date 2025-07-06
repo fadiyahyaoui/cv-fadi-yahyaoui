@@ -1,0 +1,31 @@
+/* Mobile-specific responsive styles */
+@media (max-width: 768px) {
+  .cv-container {
+    margin: 0 !important;
+    border-radius: 0 !important;
+  }
+  
+  .section-card {
+    margin-bottom: 1rem !important;
+    padding: 0.75rem !important;
+  }
+  
+  .text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .mobile-stack {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  
+  .mobile-center {
+    text-align: center !important;
+  }
+  
+  .mobile-full-width {
+    width: 100% !important;
+  }
+}

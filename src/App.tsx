@@ -6,6 +6,7 @@ import CVTemplate from './components/CVTemplate';
 import ControlPanel from './components/ControlPanel';
 import cvData from './data/cvData.json';
 import './styles/App.css';
+import './styles/mobile.css';
 
 function App() {
   const [language, setLanguage] = useState('en');
@@ -68,10 +69,10 @@ function App() {
   return (
     <div 
       ref={appRef} 
-      className="min-h-screen py-8"
+      className="min-h-screen py-4 md:py-8"
       style={{ backgroundColor: '#f8f9fa' }}
     >
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-2 md:px-4">
         <ControlPanel
           language={language}
           format={format}
@@ -80,7 +81,7 @@ function App() {
           onDownloadPDF={handleDownloadPDF}
         />
 
-        <div ref={cvRef} className="max-w-4xl mx-auto">
+        <div ref={cvRef} className="w-full max-w-4xl mx-auto">
           <CVTemplate
             data={cvData}
             language={language}

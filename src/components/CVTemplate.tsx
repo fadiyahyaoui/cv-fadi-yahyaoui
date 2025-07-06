@@ -135,44 +135,44 @@ const CVTemplate: React.FC<CVTemplateProps> = ({ data, language, format }) => {
 
   return (
     <div ref={templateRef} className={`w-full bg-white ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
-      <header className="text-white p-6 relative overflow-hidden" style={styles.headerStyle}>
+      <header className="text-white p-4 md:p-6 relative overflow-hidden" style={styles.headerStyle}>
         <div className="absolute inset-0 bg-black bg-opacity-10"></div>
         <div className="relative z-10">
-          <div className="flex items-center justify-between">
-            <div>
-              <h1 className="text-4xl font-bold mb-2 drop-shadow-lg">{data.personal.name}</h1>
-              <h2 className="text-lg opacity-90 font-medium">{getLocalizedText(data.personal.title)}</h2>
-              <div className="mt-2 space-y-1 text-sm opacity-80">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0">
+            <div className="text-center md:text-left">
+              <h1 className="text-2xl md:text-4xl font-bold mb-2 drop-shadow-lg">{data.personal.name}</h1>
+              <h2 className="text-base md:text-lg opacity-90 font-medium">{getLocalizedText(data.personal.title)}</h2>
+              <div className="mt-2 space-y-1 text-xs md:text-sm opacity-80">
                 <p>Born: 11/4/1994 • ID: 29099098 • Driver License: B</p>
               </div>
             </div>
-            <div className="text-right space-y-1">
-              <a href={`mailto:${data.personal.email}`} className="flex items-center justify-end space-x-2 bg-white bg-opacity-20 rounded-full px-3 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-sm">
-                <span className="font-medium">{data.personal.email}</span>
-                <FiMail className="w-3 h-3" />
+            <div className="flex flex-col space-y-2 md:text-right">
+              <a href={`mailto:${data.personal.email}`} className="flex items-center justify-center md:justify-end space-x-2 bg-white bg-opacity-20 rounded-full px-3 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs md:text-sm">
+                <span className="font-medium truncate">{data.personal.email}</span>
+                <FiMail className="w-3 h-3 flex-shrink-0" />
               </a>
-              <a href={`tel:${data.personal.phone}`} className="flex items-center justify-end space-x-2 bg-white bg-opacity-20 rounded-full px-3 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-sm">
+              <a href={`tel:${data.personal.phone}`} className="flex items-center justify-center md:justify-end space-x-2 bg-white bg-opacity-20 rounded-full px-3 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs md:text-sm">
                 <span className="font-medium">{data.personal.phone}</span>
-                <FiPhone className="w-3 h-3" />
+                <FiPhone className="w-3 h-3 flex-shrink-0" />
               </a>
-              <a href="https://maps.google.com/?q=Beni+Khiar+Nabeul+Tunisia" target="_blank" rel="noopener noreferrer" className="flex items-center justify-end space-x-2 bg-white bg-opacity-20 rounded-full px-3 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-sm">
-                <span className="font-medium">{getLocalizedText(data.personal.location)}</span>
-                <FiMapPin className="w-3 h-3" />
+              <a href="https://maps.google.com/?q=Beni+Khiar+Nabeul+Tunisia" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-end space-x-2 bg-white bg-opacity-20 rounded-full px-3 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs md:text-sm">
+                <span className="font-medium truncate">{getLocalizedText(data.personal.location)}</span>
+                <FiMapPin className="w-3 h-3 flex-shrink-0" />
               </a>
-              <a href="https://facebook.com/yahyaoui.fadi2" target="_blank" rel="noopener noreferrer" className="flex items-center justify-end space-x-2 bg-white bg-opacity-20 rounded-full px-3 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-sm">
-                <span className="font-medium">@yahyaoui.fadi2</span>
-                <FiFacebook className="w-3 h-3" />
+              <a href="https://facebook.com/yahyaoui.fadi2" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-end space-x-2 bg-white bg-opacity-20 rounded-full px-3 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs md:text-sm">
+                <span className="font-medium truncate">@yahyaoui.fadi2</span>
+                <FiFacebook className="w-3 h-3 flex-shrink-0" />
               </a>
-              <a href="https://linkedin.com/in/fadiyahyaoui" target="_blank" rel="noopener noreferrer" className="flex items-center justify-end space-x-2 bg-white bg-opacity-20 rounded-full px-3 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-sm">
-                <span className="font-medium">@fadiyahyaoui</span>
-                <FiLinkedin className="w-3 h-3" />
+              <a href="https://linkedin.com/in/fadiyahyaoui" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-end space-x-2 bg-white bg-opacity-20 rounded-full px-3 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs md:text-sm">
+                <span className="font-medium truncate">@fadiyahyaoui</span>
+                <FiLinkedin className="w-3 h-3 flex-shrink-0" />
               </a>
             </div>
           </div>
         </div>
       </header>
 
-      <div className="p-6 bg-gray-50">
+      <div className="p-3 md:p-6 bg-gray-50">
         <section className="mb-6 p-4 rounded-xl shadow-lg" style={{...styles.cardStyle, borderLeft: `4px solid ${styles.borderColor}`}}>
           <h3 className="text-2xl font-bold mb-3 pb-2 flex items-center" style={{color: styles.accentColor}}>
             <div className="w-2 h-6 rounded-full mr-3" style={styles.skillStyle}></div>
@@ -234,7 +234,7 @@ const CVTemplate: React.FC<CVTemplateProps> = ({ data, language, format }) => {
             <div className="w-2 h-6 rounded-full mr-3" style={styles.skillStyle}></div>
             Certifications
           </h3>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {data.certifications.map((cert: any, index: number) => (
               <div key={index} className="p-3 bg-white rounded-lg shadow-md">
                 <h4 className="font-bold text-gray-800 text-sm">{cert.name}</h4>
@@ -317,7 +317,7 @@ const CVTemplate: React.FC<CVTemplateProps> = ({ data, language, format }) => {
             <div className="w-2 h-6 rounded-full mr-3" style={styles.skillStyle}></div>
             Languages
           </h3>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {getLocalizedText(data.skills.languages).map((lang: any, index: number) => (
               <div key={index} className="flex justify-between items-center p-2 bg-white rounded-lg shadow-md">
                 <span className="font-semibold text-gray-800 text-sm">{lang.language}</span>

@@ -57,8 +57,8 @@ const ControlPanel: React.FC<ControlPanelProps> = ({
   };
 
   return (
-    <div ref={panelRef} className="bg-white shadow-lg rounded-xl p-4 mb-6 border border-gray-100">
-      <div className="flex flex-wrap items-center justify-between gap-4">
+    <div ref={panelRef} className="bg-white shadow-lg rounded-xl p-3 md:p-4 mb-4 md:mb-6 border border-gray-100">
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-2">
             <div className="p-2 rounded-full" style={{ backgroundColor: '#1a1a2e' }}>
