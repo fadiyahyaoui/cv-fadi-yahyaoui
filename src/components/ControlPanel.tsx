@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { FiDownload, FiGlobe, FiLayout } from 'react-icons/fi';
 import gsap from 'gsap';
 
