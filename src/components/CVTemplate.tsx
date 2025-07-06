@@ -138,15 +138,17 @@ const CVTemplate: React.FC<CVTemplateProps> = ({ data, language, format }) => {
       <header className="text-white p-4 md:p-6 relative overflow-hidden" style={styles.headerStyle}>
         <div className="absolute inset-0 bg-black bg-opacity-10"></div>
         <div className="relative z-10">
-          <div className="space-y-4 md:flex md:items-start md:justify-between md:space-y-0">
+          <div className="flex flex-col space-y-3 md:flex-row md:items-start md:justify-between md:space-y-0">
             <div className="text-center md:text-left">
-              <h1 className="text-xl md:text-4xl font-bold mb-1 md:mb-2 drop-shadow-lg">{data.personal.name}</h1>
-              <h2 className="text-sm md:text-lg opacity-90 font-medium mb-2">{getLocalizedText(data.personal.title)}</h2>
-              <div className="text-xs md:text-sm opacity-80 space-y-0.5 md:space-y-1">
-                <p>Born: 11/4/1994 • ID: 29099098 • License: B</p>
+              <h1 className="text-2xl md:text-4xl font-bold mb-2 drop-shadow-lg">{data.personal.name}</h1>
+              <h2 className="text-base md:text-lg opacity-90 font-medium mb-3">{getLocalizedText(data.personal.title)}</h2>
+              <div className="text-sm md:text-sm opacity-80 space-y-1">
+                <p>Born: 11/4/1994</p>
+                <p>ID: 29099098</p>
+                <p>Driver License: B</p>
               </div>
             </div>
-            <div className="grid grid-cols-1 gap-1.5 md:flex md:flex-col md:space-y-2 md:text-right">
+            <div className="flex flex-col space-y-2 md:text-right">
               <a href={`mailto:${data.personal.email}`} className="flex items-center justify-center md:justify-end space-x-1.5 bg-white bg-opacity-20 rounded-full px-2.5 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs">
                 <FiMail className="w-3 h-3 flex-shrink-0" />
                 <span className="font-medium truncate max-w-[120px] md:max-w-none">{data.personal.email}</span>
