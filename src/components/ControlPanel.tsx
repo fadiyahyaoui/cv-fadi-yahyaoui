@@ -67,19 +67,41 @@ const ControlPanel: React.FC<ControlPanelProps> = ({
             <span className="font-medium text-gray-700 text-sm">Language:</span>
           </div>
           <div className="flex space-x-2">
-            {languages.map((lang) => (
-              <button
-                key={lang.code}
-                onClick={() => handleLanguageClick(lang.code)}
-                className={`lang-${lang.code} px-3 py-2 rounded-lg text-xs font-semibold transition-all shadow-sm ${
-                  language === lang.code
-                    ? 'bg-blue-500 text-white'
-                    : 'bg-white text-gray-600 hover:bg-gray-50 border border-gray-200'
-                }`}
-              >
-                {lang.name}
+            <div className="flex space-x-2 md:contents">
+              {languages.slice(0, 2).map((lang) => (
+                <button
+                  key={lang.code}
+                  onClick={() => handleLanguageClick(lang.code)}
+                  className={`lang-${lang.code} px-3 py-2 rounded-lg text-xs font-semibold transition-all shadow-sm ${
+                    language === lang.code
+                      ? 'bg-blue-500 text-white'
+                      : 'bg-white text-gray-600 hover:bg-gray-50 border border-gray-200'
+                  }`}
+                >
+                  {lang.name}
+                </button>
+              ))}
+            </div>
+            <div className="relative md:contents">
+              <button className="md:hidden px-3 py-2 rounded-lg text-xs font-semibold bg-white text-gray-600 border border-gray-200 hover:bg-gray-50" onClick={() => document.getElementById('lang-dropdown').classList.toggle('hidden')}>
+                •••
               </button>
-            ))}
+              <div id="lang-dropdown" className="hidden absolute top-full left-0 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg z-10 md:relative md:flex md:space-x-2 md:bg-transparent md:border-0 md:shadow-none">
+                {languages.slice(2).map((lang) => (
+                  <button
+                    key={lang.code}
+                    onClick={() => {handleLanguageClick(lang.code); document.getElementById('lang-dropdown').classList.add('hidden');}}
+                    className={`lang-${lang.code} block w-full text-left px-3 py-2 rounded-lg text-xs font-semibold transition-all md:shadow-sm ${
+                      language === lang.code
+                        ? 'bg-blue-500 text-white'
+                        : 'bg-white text-gray-600 hover:bg-gray-50 md:border md:border-gray-200'
+                    }`}
+                  >
+                    {lang.name}
+                  </button>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
 
