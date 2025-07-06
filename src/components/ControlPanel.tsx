@@ -83,14 +83,14 @@ const ControlPanel: React.FC<ControlPanelProps> = ({
               ))}
             </div>
             <div className="relative md:contents">
-              <button className="md:hidden px-3 py-2 rounded-lg text-xs font-semibold bg-white text-gray-600 border border-gray-200 hover:bg-gray-50" onClick={() => document.getElementById('lang-dropdown').classList.toggle('hidden')}>
+              <button className="md:hidden px-3 py-2 rounded-lg text-xs font-semibold bg-white text-gray-600 border border-gray-200 hover:bg-gray-50" onClick={() => document.getElementById('lang-dropdown')?.classList.toggle('hidden')}>
                 •••
               </button>
               <div id="lang-dropdown" className="hidden absolute top-full left-0 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg z-10 md:relative md:flex md:space-x-2 md:bg-transparent md:border-0 md:shadow-none">
                 {languages.slice(2).map((lang) => (
                   <button
                     key={lang.code}
-                    onClick={() => {handleLanguageClick(lang.code); document.getElementById('lang-dropdown').classList.add('hidden');}}
+                    onClick={() => {handleLanguageClick(lang.code); document.getElementById('lang-dropdown')?.classList.add('hidden');}}
                     className={`lang-${lang.code} block w-full text-left px-3 py-2 rounded-lg text-xs font-semibold transition-all md:shadow-sm ${
                       language === lang.code
                         ? 'bg-blue-500 text-white'
