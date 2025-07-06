@@ -138,36 +138,34 @@ const CVTemplate: React.FC<CVTemplateProps> = ({ data, language, format }) => {
       <header className="text-white p-4 md:p-6 relative overflow-hidden" style={styles.headerStyle}>
         <div className="absolute inset-0 bg-black bg-opacity-10"></div>
         <div className="relative z-10">
-          <div className="flex flex-col space-y-4 md:flex-row md:items-center md:justify-between md:space-y-0">
-            <div className="text-center md:text-left order-1 md:order-1">
-              <h1 className="text-2xl md:text-4xl font-bold mb-2 drop-shadow-lg">{data.personal.name}</h1>
-              <h2 className="text-base md:text-lg opacity-90 font-medium mb-2">{getLocalizedText(data.personal.title)}</h2>
-              <div className="text-xs md:text-sm opacity-80 space-y-1">
-                <p>Born: 11/4/1994</p>
-                <p>ID: 29099098</p>
-                <p>Driver License: B</p>
+          <div className="space-y-4 md:flex md:items-start md:justify-between md:space-y-0">
+            <div className="text-center md:text-left">
+              <h1 className="text-xl md:text-4xl font-bold mb-1 md:mb-2 drop-shadow-lg">{data.personal.name}</h1>
+              <h2 className="text-sm md:text-lg opacity-90 font-medium mb-2">{getLocalizedText(data.personal.title)}</h2>
+              <div className="text-xs md:text-sm opacity-80 space-y-0.5 md:space-y-1">
+                <p>Born: 11/4/1994 • ID: 29099098 • License: B</p>
               </div>
             </div>
-            <div className="flex flex-col space-y-2 order-2 md:order-2 md:text-right">
-              <a href={`mailto:${data.personal.email}`} className="flex items-center justify-center md:justify-end space-x-2 bg-white bg-opacity-20 rounded-full px-3 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs md:text-sm">
-                <span className="font-medium truncate">{data.personal.email}</span>
+            <div className="grid grid-cols-1 gap-1.5 md:flex md:flex-col md:space-y-2 md:text-right">
+              <a href={`mailto:${data.personal.email}`} className="flex items-center justify-center md:justify-end space-x-1.5 bg-white bg-opacity-20 rounded-full px-2.5 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs">
                 <FiMail className="w-3 h-3 flex-shrink-0" />
+                <span className="font-medium truncate max-w-[120px] md:max-w-none">{data.personal.email}</span>
               </a>
-              <a href={`tel:${data.personal.phone}`} className="flex items-center justify-center md:justify-end space-x-2 bg-white bg-opacity-20 rounded-full px-3 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs md:text-sm">
-                <span className="font-medium">{data.personal.phone}</span>
+              <a href={`tel:${data.personal.phone}`} className="flex items-center justify-center md:justify-end space-x-1.5 bg-white bg-opacity-20 rounded-full px-2.5 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs">
                 <FiPhone className="w-3 h-3 flex-shrink-0" />
+                <span className="font-medium">{data.personal.phone}</span>
               </a>
-              <a href="https://maps.google.com/?q=Beni+Khiar+Nabeul+Tunisia" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-end space-x-2 bg-white bg-opacity-20 rounded-full px-3 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs md:text-sm">
-                <span className="font-medium truncate">{getLocalizedText(data.personal.location)}</span>
+              <a href="https://maps.google.com/?q=Beni+Khiar+Nabeul+Tunisia" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-end space-x-1.5 bg-white bg-opacity-20 rounded-full px-2.5 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs">
                 <FiMapPin className="w-3 h-3 flex-shrink-0" />
+                <span className="font-medium truncate max-w-[100px] md:max-w-none">{getLocalizedText(data.personal.location)}</span>
               </a>
-              <a href="https://facebook.com/yahyaoui.fadi2" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-end space-x-2 bg-white bg-opacity-20 rounded-full px-3 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs md:text-sm">
-                <span className="font-medium truncate">@yahyaoui.fadi2</span>
+              <a href="https://facebook.com/yahyaoui.fadi2" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-end space-x-1.5 bg-white bg-opacity-20 rounded-full px-2.5 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs">
                 <FiFacebook className="w-3 h-3 flex-shrink-0" />
+                <span className="font-medium truncate max-w-[100px] md:max-w-none">@yahyaoui.fadi2</span>
               </a>
-              <a href="https://linkedin.com/in/fadiyahyaoui" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-end space-x-2 bg-white bg-opacity-20 rounded-full px-3 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs md:text-sm">
-                <span className="font-medium truncate">@fadiyahyaoui</span>
+              <a href="https://linkedin.com/in/fadiyahyaoui" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-end space-x-1.5 bg-white bg-opacity-20 rounded-full px-2.5 py-1 backdrop-blur-sm hover:bg-opacity-30 transition-all text-xs">
                 <FiLinkedin className="w-3 h-3 flex-shrink-0" />
+                <span className="font-medium truncate max-w-[100px] md:max-w-none">@fadiyahyaoui</span>
               </a>
             </div>
           </div>

@@ -58,43 +58,42 @@ const ControlPanel: React.FC<ControlPanelProps> = ({
 
   return (
     <div ref={panelRef} className="bg-white shadow-lg rounded-xl p-3 md:p-4 mb-4 md:mb-6 border border-gray-100">
-      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-        <div className="flex items-center space-x-4">
+      <div className="space-y-3 md:space-y-0 md:flex md:items-center md:justify-between md:gap-4">
+        {/* Language Section */}
+        <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-3">
           <div className="flex items-center space-x-2">
-            <div className="p-2 rounded-full" style={{ backgroundColor: '#1a1a2e' }}>
+            <div className="p-1.5 rounded-full" style={{ backgroundColor: '#1a1a2e' }}>
               <FiGlobe className="text-white w-3 h-3" />
             </div>
             <span className="font-medium text-gray-700 text-sm">Language:</span>
           </div>
-          <div className="flex space-x-2">
-            <div className="flex space-x-2 md:contents">
-              {languages.slice(0, 2).map((lang) => (
-                <button
-                  key={lang.code}
-                  onClick={() => handleLanguageClick(lang.code)}
-                  className={`lang-${lang.code} px-3 py-2 rounded-lg text-xs font-semibold transition-all shadow-sm ${
-                    language === lang.code
-                      ? 'bg-blue-500 text-white'
-                      : 'bg-white text-gray-600 hover:bg-gray-50 border border-gray-200'
-                  }`}
-                >
-                  {lang.name}
-                </button>
-              ))}
-            </div>
-            <div className="relative md:contents">
-              <button className="md:hidden px-3 py-2 rounded-lg text-xs font-semibold bg-white text-gray-600 border border-gray-200 hover:bg-gray-50" onClick={() => document.getElementById('lang-dropdown')?.classList.toggle('hidden')}>
-                •••
+          <div className="flex space-x-1">
+            {languages.slice(0, 2).map((lang) => (
+              <button
+                key={lang.code}
+                onClick={() => handleLanguageClick(lang.code)}
+                className={`lang-${lang.code} px-2.5 py-1.5 rounded-md text-xs font-semibold transition-all ${
+                  language === lang.code
+                    ? 'bg-blue-500 text-white'
+                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                }`}
+              >
+                {lang.name}
               </button>
-              <div id="lang-dropdown" className="hidden absolute top-full left-0 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg z-10 md:relative md:flex md:space-x-2 md:bg-transparent md:border-0 md:shadow-none">
+            ))}
+            <div className="relative md:contents">
+              <button className="md:hidden px-2.5 py-1.5 rounded-md text-xs font-semibold bg-gray-100 text-gray-600 hover:bg-gray-200" onClick={() => document.getElementById('lang-dropdown')?.classList.toggle('hidden')}>
+                +
+              </button>
+              <div id="lang-dropdown" className="hidden absolute top-full left-0 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg z-20 min-w-[80px] md:relative md:flex md:space-x-1 md:bg-transparent md:border-0 md:shadow-none">
                 {languages.slice(2).map((lang) => (
                   <button
                     key={lang.code}
                     onClick={() => {handleLanguageClick(lang.code); document.getElementById('lang-dropdown')?.classList.add('hidden');}}
-                    className={`lang-${lang.code} block w-full text-left px-3 py-2 rounded-lg text-xs font-semibold transition-all md:shadow-sm ${
+                    className={`lang-${lang.code} block w-full text-center px-2.5 py-1.5 rounded-md text-xs font-semibold transition-all md:inline-block md:w-auto ${
                       language === lang.code
                         ? 'bg-blue-500 text-white'
-                        : 'bg-white text-gray-600 hover:bg-gray-50 md:border md:border-gray-200'
+                        : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                     }`}
                   >
                     {lang.name}
@@ -105,21 +104,22 @@ const ControlPanel: React.FC<ControlPanelProps> = ({
           </div>
         </div>
 
-        <div className="flex items-center space-x-4">
+        {/* Format Section */}
+        <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-3">
           <div className="flex items-center space-x-2">
-            <div className="p-2 rounded-full" style={{ backgroundColor: '#ffd60a' }}>
+            <div className="p-1.5 rounded-full" style={{ backgroundColor: '#ffd60a' }}>
               <FiLayout className="text-white w-3 h-3" />
             </div>
             <span className="font-medium text-gray-700 text-sm">Format:</span>
           </div>
-          <div className="flex space-x-2">
+          <div className="flex space-x-1">
             {formats.map((fmt) => (
               <button
                 key={fmt.value}
                 onClick={() => handleFormatClick(fmt.value)}
-                className={`format-${fmt.value} px-3 py-2 rounded-lg text-xs font-semibold transition-all shadow-sm text-white ${
+                className={`format-${fmt.value} px-2.5 py-1.5 rounded-md text-xs font-semibold transition-all text-white ${
                   format === fmt.value
-                    ? 'border-2 border-white'
+                    ? 'ring-2 ring-white ring-offset-1'
                     : 'opacity-70 hover:opacity-100'
                 }`}
                 style={fmt.style}
@@ -130,9 +130,10 @@ const ControlPanel: React.FC<ControlPanelProps> = ({
           </div>
         </div>
 
+        {/* Download Button */}
         <button
           onClick={handleDownloadClick}
-          className="download-btn text-white px-4 py-2 rounded-lg font-medium transition-all flex items-center space-x-2 shadow-lg text-sm"
+          className="download-btn text-white px-3 py-1.5 rounded-md font-medium transition-all flex items-center justify-center space-x-1.5 text-sm w-full sm:w-auto"
           style={{ backgroundColor: '#000814' }}
         >
           <FiDownload className="w-3 h-3" />
